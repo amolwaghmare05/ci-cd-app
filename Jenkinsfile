@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "ci-cd-app"
         CONTAINER_NAME = "ci-cd-container"
-        PORT = "9080"
+        PORT = "9084"
     }
 
     stages {
